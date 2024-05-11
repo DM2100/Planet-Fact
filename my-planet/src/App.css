@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  background-color: rgba(7,6,37,255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navbar */
+.bg-color-nav{
+  background-color: rgba(7,6,37,255);
+  border-bottom: 1px solid #a6a6b1;
+}
+.styled-links{
+  color: #a6a6b1 !important;
+}
+.custom-nav{
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+/* Heading text */
+.heading-text{
+  color: #a6a6b1;
+  font-size: 67px;
+}
+.planet-info{
+  color: #a6a6b1;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.heading-container {
+  animation: fade-in 3.5s ease-out;
+}
+
+
+
+/*  Sections */
+.planet-name{
+  font-size: 75px;
+  text-align: start;
+}
+.planet-description{
+  width: 500px;
+  font-size: 23px;
+  color: #a6a6b1;
+}
+.text-source{
+  color: #a6a6b1;
+}
+.styled-link{
+  color: #a6a6b1;
+}
+.planet-img{
+  width: 450px;
+}
+
+.styled-btn{
+  width: 100%;
+  background-color: rgba(7,6,37,255);
+  padding: 20px;
+  color: #a6a6b1;
+  border: 1px solid #a6a6b1;
+}
+.styled-number{
+  color: #a6a6b1;
+  background-color: transparent;
+}
+.styled-bg{
+  background-color: transparent;
+}
+.styled-info{
+  color: #a6a6b1;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.info-text{
+  color: rgb(238,238,239);
+}
+.styled-card{
+  border: 1px solid #a6a6b1;
+   padding: 20px;
+}
+.active-btn {
+  background-color: #6f2fd9;
+  color: white;
+}
